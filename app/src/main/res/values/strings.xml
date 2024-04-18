@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TarTer</string>
+    <string name="submit">Submit</string>
+    <string name="you_must_answer_2_questions_right_to_win">You must answer 2 questions right to win</string>
+    <string name="wellcome_to_my_quiz_app">Wellcome to my quiz app</string>
+    <string name="retry">Retry</string>
+
+    <string-array name="number">
+        <item>Mount Everest</item>
+        <item>The Nile</item>
+        <item>Canberra</item>
+        <item>The Sahara Desert</item>
+        <item>The Pacific Ocean</item>
+        <item>Asia</item>
+        <item>Lake Victoria</item>
+        <item>The River Thames</item>
+    </string-array>
+
+
+
+</resources>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CodeQuest"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/lessons_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lessons"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/challenges_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Challenges"
+        android:layout_marginBottom="8dp"/>
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/code" /> <!-- Example of an image view -->
+
+    <SeekBar
+        android:id="@+id/progress_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"/>
+
+
+    <CheckBox
+        android:id="@+id/remember_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"/>
+
+
+</LinearLayout>
